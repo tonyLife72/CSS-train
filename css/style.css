@@ -1,0 +1,38 @@
+.parent {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: #ff6600;
+}
+
+.child {
+    width: 50px;
+    height: 50px;
+    border: 1px dashed green;
+    background-color: #398ceb;
+}
+
+.neighbor{
+    width: 300px;
+    height: 150px;
+    border: 2px dashed yellow;
+}
+
+.wrapper>.child {
+    background-color: #bc8f8f;
+}
+
+.wrapper>.child:hover{
+    background-color: #00ff7f;
+}
+.todo-list .todo-list_item{
+    list-style: none;
+}
+
+.todo-list_item::after{
+    content: "\1F601";
+}
+
+.todo-list_item::before{
+    content: "\1F973";
+}
